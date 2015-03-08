@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx" width="148" height="96">
+	<fx:Script>
+		<![CDATA[
+			[Bindable]
+			public var itemname:String;
+			[Bindable]
+			public var table:String;
+			[Bindable]
+			public var quan:String;
+			public var orderID:String;
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:Label x="0" y="0" width="147" height="36" color="#1364B0" fontFamily="Verdana"
+			 fontSize="11" fontWeight="bold" text="{itemname}" textAlign="center"
+			 textDecoration="none" verticalAlign="middle"/>
+	<s:Label x="78" y="24" width="57" height="36" color="#1364B0" fontFamily="Verdana"
+			 fontSize="23" fontWeight="bold" text="{quan}" textAlign="center"
+			 textDecoration="none" verticalAlign="middle"/>
+	<s:Label x="-11" y="24" width="113" height="36" color="#1364B0" fontFamily="Verdana"
+			 fontSize="14" fontWeight="bold" text="Quantity:" textAlign="center"
+			 textDecoration="none" verticalAlign="middle"/>
+	<s:Label x="-1" y="53" width="113" height="36" color="#6113B0" fontFamily="Verdana"
+			 fontSize="15" fontWeight="bold" text="{table}" textAlign="center"
+			 textDecoration="none" verticalAlign="middle"/>
+</s:Group>
